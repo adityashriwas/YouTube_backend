@@ -1,0 +1,21 @@
+git init : to initialize an application from node package manager.
+
+
+Data Modelling
+
+Schema() : it is a method in mongoose that takes an object 
+to create models there is three steps
+
+first: import the mongoose
+    import mongoose from "mongoose"
+
+second: create Schema
+    const userSchema = new mongoose.Schema({})
+
+third: export the Schema
+    export const User(first letter should be capital) = mongoose.model("User", userSchema)
+
+    here model() method it takes two parameters 
+        - What model to make (In string format) "When this is passed to the database it is saved in lowercase with s at the end"
+        - on which base to make
+    
