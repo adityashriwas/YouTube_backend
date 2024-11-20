@@ -19,3 +19,11 @@ third: export the Schema
         - What model to make (In string format) "When this is passed to the database it is saved in lowercase with s at the end"
         - on which base to make
     
+
+Connecting database
+    - Go to mongodb atlas
+    - Create a database
+    - select a plan or create a cluster
+    - add IP address for the database access
+    - 
+
