@@ -70,3 +70,6 @@ if we create all the routes in a same file it would be clutered so for that we m
 
 after creating a route if we want to use it then first we need to export it. (module.exports = router)
 
+For encrypting data before saving in DB we use an npm bcrypt and to perform it exactly before saving we use pre middleware functions (Pre Hooks)
+
+JWT is bearer token
