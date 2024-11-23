@@ -73,3 +73,9 @@ after creating a route if we want to use it then first we need to export it. (mo
 For encrypting data before saving in DB we use an npm bcrypt and to perform it exactly before saving we use pre middleware functions (Pre Hooks)
 
 JWT is bearer token
+
+
+
+
+File upload in backend:
+
