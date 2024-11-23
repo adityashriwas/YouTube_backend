@@ -77,5 +77,15 @@ JWT is bearer token
 
 
 
-File upload in backend:
+Controller to register user
+    - get user details from frontend
+    - validation - not empty
+    - check if user already exist username, email
+    - check for images check for avatar
+    - upload them to cloudinary, avatar
+    - create user object - create entry in db
+    - remove password and refresh token field from from response
+    - check for user creation
+    - return response
+
 
